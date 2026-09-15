@@ -1,0 +1,93 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#introducao {
+    color: rgba(7, 17, 104, 0.762)  ;
+}
+
+header {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#menu{
+    color: rgba(7, 17, 104, 0.762);
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+}
+
+main {
+    padding: 20px;
+    background-color: rgba(7, 17, 104, 0.762);
+    display: flex;
+
+}
+
+#inicio{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    line-height: 45px;
+    justify-content:space-between;
+    align-items: center;
+}
+
+#inicio img{
+    width: 400px;
+    height: auto;
+}
+
+#inicio h2 {
+    font-size: 50px;
+}
+
+#herois {
+    padding: 20px;
+}
+
+#herois h2 {
+    font-size: 45px;
+}
+
+#conheca {
+    color: rgba(7, 17, 104, 0.762);
+}
+
+.cards {
+    background-color: rgba(7, 17, 104, 0.762);
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+}
+
+.cards h3 {
+    font-size: 35px;
+}
+
+.cards img {
+    width: 100%;
+    object-fit:scale-down;
+    height: 350px;
+}
+
+#galeria {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+hr {
+    margin: 20px;
+}
+
+footer {
+    padding: 20px;
+    color: gray;
+}
