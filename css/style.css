@@ -1,17 +1,15 @@
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
 
-#introducao {
-    color: rgba(7, 17, 104, 0.762)  ;
-}
-
 header {
-    padding: 20px;
+    padding: 15px;
     display: flex;
-    justify-content: space-between;
+    align-items: center;
+    gap: 23%;
+    background-color: rgba(7, 17, 104, 0.762);
 }
 
 #menu{
@@ -21,12 +19,6 @@ header {
     gap: 10px;
 }
 
-main {
-    padding: 20px;
-    background-color: rgba(7, 17, 104, 0.762);
-    display: flex;
-
-}
 
 #inicio{
     display: flex;
@@ -37,57 +29,110 @@ main {
     align-items: center;
 }
 
-#inicio img{
-    width: 400px;
-    height: auto;
-}
-
-#inicio h2 {
-    font-size: 50px;
-}
-
-#herois {
+#personagem {
+    display: flex;
+    gap: 50px;
     padding: 20px;
+    line-height: 45px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#herois h2 {
-    font-size: 45px;
+#curiosidades {
+    display: flex;
+    gap: 50px;
+    padding: 20px;
+    line-height: 45px;
+    justify-content: space-between;
+    align-items: center;
 }
 
-#conheca {
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#aprenda {
     color: rgba(7, 17, 104, 0.762);
 }
 
-.cards {
-    background-color: rgba(7, 17, 104, 0.762);
-    padding: 20px;
-    margin: 10px;
-    width: 30%;
+#universo {
+    color: rgba(7, 17, 104, 0.762);
 }
 
-.cards h3 {
-    font-size: 35px;
-}
-
-.cards img {
-    width: 100%;
-    object-fit:scale-down;
-    height: 350px;
-}
-
-#galeria {
+#header-itens {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
+    gap: 15px;
+    font-size: 20px;
 }
 
-hr {
-    margin: 20px;
+h2 {
+    font-size: 45px;
+}
+
+#fortes {
+    padding: 30px;
+    display: flex;
+    align-items: flex-end;
+    gap: 65%;
+    justify-content: center;
+}
+
+#especiais {
+    color:rgba(7, 17, 104, 0.762);
+}
+
+#mais {
+    color: rgba(7, 17, 104, 0.762); 
+    font-size: 25px;
+}
+
+#um {
+    color: rgba(7, 17, 104, 0.762);
+    font-size: 25px;
+}
+
+#cards{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+
+#poderes {
+    background-color: rgba(7, 17, 104, 0.762);
+    border-radius: 10px;
+    padding: 15px
+}
+
+#missoes {
+    background-color: rgba(7, 17, 104, 0.762);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#especiais {
+    background-color:rgba(7, 17, 104, 0.762);
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#pronto {
+    background-color: rgba(7, 17, 104, 0.762);
+    text-align: center;
+    padding: 30px;
+    line-height: 30px;
+}
+
+#linha {
+    display: flex;
+    justify-content: center;
+    gap: 47%;
 }
 
 footer {
-    padding: 20px;
-    color: gray;
+    background-color:rgb(121, 121, 121);
+    padding: 15px;
 }

@@ -1,0 +1,105 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#aprenda {
+    color: #ff5cce;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    gap: 23%;
+    background-color: #ff5cce;
+    align-items: center;
+}
+
+a {
+        text-decoration: none;
+        color:black
+    }
+
+#header-itens {
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+    font-size: 20px;
+}
+
+#unidos {
+    padding: 20px;
+}
+
+#unidos {
+    padding: 20px;
+    color: #211b1b;
+}
+
+h2 {
+    font-size: 50px;
+}
+
+#justica {
+    display: flex;
+    background-color: rgb(255, 126, 205);
+}
+
+#os {
+    color: #9f5353;
+}
+
+#destaque {
+    font-size: 40px;
+}
+
+#destaque-herois {
+    padding: 15px;
+    display: flex;
+    align-items: flex-end;
+    gap: 75%;
+    justify-content: center;
+}
+
+#seis{
+    color: #c300e1ea;
+    font-size: 25px;
+}
+
+
+.cards {
+    background-color: #ff5cce;
+    padding: 20px;
+    margin: 10px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.cards img {
+    width: 100%;
+    height: 250px;
+    object-fit: contain;
+}
+
+.nomes {
+    font-size: 30px;
+}
+
+#imagens {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#desenvolvimento {
+    display: flex;
+    justify-content: center;
+    gap: 47%;
+}
+
+footer {
+    background-color: #fe6ad2;
+    padding: 15px;
+}
+

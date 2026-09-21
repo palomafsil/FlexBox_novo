@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 23%;
+    background-color: #ff5cce;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.clique {
+    background-color:#c300e1ea;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#header-itens {
+    display: flex;
+    gap: 15px;
+    font-size: 20px;
+}
+
+#aprenda {
+    color: #ff0000;
+}
+
+#segredos {
+    padding: 20px;
+}
+
+#herois {
+    color: #ff0000;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#inicio {
+    display: flex;
+    background-color: rgb(255, 126, 205);
+    padding: 15px;
+}
+
+
+#desenvolvimento-linha {
+    display: flex;
+    justify-content: center;
+    gap: 47%;
+}
+
+footer {
+    background-color: #fe6ad2;
+    padding: 15px;
+}
+
+#curiosidades {
+    display:flex;
+    background-color: rgb(255, 203, 241);
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    padding: 30px;
+    margin: 40px;
+}
+
+#curiosidades img {
+    width: 450px;
+    height: auto;
+    border-radius: 10px;
+}
+
+
+.cards {
+    display:flex;
+    gap: 7px;
+    line-height: 20px;
+    background-color: rgb(255, 126, 205);
+    padding: 10px;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+h4 {
+    font-size: 25px;
+}
+
+h3 {
+    font-size:  27px;
+    color: #c300e1ea
+}
+
+#sabia {
+    color: #c300e1ea
+}
+
+.numero {
+    color: #c300e1ea;
+}
