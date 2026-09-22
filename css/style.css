@@ -9,11 +9,11 @@ header {
     display: flex;
     align-items: center;
     gap: 23%;
-    background-color: rgba(7, 17, 104, 0.762);
+    background-color: rgb(244, 104, 190);
 }
 
 #menu{
-    color: rgba(7, 17, 104, 0.762);
+    color: rgb(244, 104, 190);
     display: flex;
     padding: 10px;
     gap: 10px;
@@ -54,11 +54,11 @@ a {
 }
 
 #aprenda {
-    color: rgba(7, 17, 104, 0.762);
+    color: rgb(244, 104, 190);
 }
 
 #universo {
-    color: rgba(7, 17, 104, 0.762);
+    color: rgb(244, 104, 190);
 }
 
 #header-itens {
@@ -80,20 +80,20 @@ h2 {
 }
 
 #especiais {
-    color:rgba(7, 17, 104, 0.762);
+    color:rgb(244, 104, 190);
 }
 
 #mais {
-    color: rgba(7, 17, 104, 0.762); 
+    color: rgb(244, 104, 190); 
     font-size: 25px;
 }
 
 #um {
-    color: rgba(7, 17, 104, 0.762);
+    color: rgb(244, 104, 190);
     font-size: 25px;
 }
 
-#cards{
+#infomacoes{
     display: flex;
     text-align: center;
     justify-content: center;
@@ -102,28 +102,27 @@ h2 {
 }
 
 #poderes {
-    background-color: rgba(7, 17, 104, 0.762);
+    background-color: rgb(244, 104, 190);
     border-radius: 10px;
     padding: 15px
 }
 
 #missoes {
-    background-color: rgba(7, 17, 104, 0.762);
+    background-color: rgb(244, 104, 190);
     border-radius: 10px;
     padding: 15px;
 }
 
 #especiais {
-    background-color:rgba(7, 17, 104, 0.762);
     border-radius: 10px;
     padding: 15px;
 }
 
-#pronto {
-    background-color: rgba(7, 17, 104, 0.762);
-    text-align: center;
+#cards {
+    background-color: rgb(244, 104, 190);
     padding: 30px;
     line-height: 30px;
+    align-items: center;
 }
 
 #linha {
@@ -133,6 +132,34 @@ h2 {
 }
 
 footer {
-    background-color:rgb(121, 121, 121);
+    background-color:rgb(244, 104, 190);
     padding: 15px;
 }
+
+.clique {
+    background-color:#7c0b6d;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#justica {
+    height: 500px;
+    display: flex;
+    align-items: center;
+    padding: 25px;
+}
+
+#justica h2 {
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+#justica .hulk {
+    width: 500px;
+    height: auto;
+    display: block;
+}
+
+.numero {
+    color: #c300e1ea;
+}   

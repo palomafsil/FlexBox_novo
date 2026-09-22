@@ -9,7 +9,7 @@ header {
     display: flex;
     align-items: center;
     gap: 23%;
-    background-color: #ff5cce;
+    background-color: rgb(244, 104, 190);
 }
 
 a {
@@ -17,20 +17,16 @@ a {
     color: black;
 }
 
-.clique {
-    background-color:#c300e1ea;
-    padding: 5px;
-    border-radius: 5px;
-}
 
 #header-itens {
     display: flex;
     gap: 15px;
     font-size: 20px;
+    justify-content: flex-end;
 }
 
 #aprenda {
-    color: #ff0000;
+    color: #700a5a;
 }
 
 #segredos {
@@ -38,7 +34,7 @@ a {
 }
 
 #herois {
-    color: #ff0000;
+    color: #8408a3;
 }
 
 h2 {
@@ -59,13 +55,13 @@ h2 {
 }
 
 footer {
-    background-color: #fe6ad2;
+    background-color: rgb(255, 126, 205);
     padding: 15px;
 }
 
 #curiosidades {
     display:flex;
-    background-color: rgb(255, 203, 241);
+    background-color: rgb(255, 126, 205);
     justify-content: center;
     gap: 70px;
     align-items: center;
@@ -96,11 +92,11 @@ h4 {
 
 h3 {
     font-size:  27px;
-    color: #c300e1ea
+    color: #700a5a
 }
 
 #sabia {
-    color: #c300e1ea
+    color: #700a5a;
 }
 
 .numero {
