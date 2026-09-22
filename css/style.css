@@ -79,12 +79,38 @@ h2 {
     justify-content: center;
 }
 
+#galeria {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    background-color: #dc8ad1;
+    text-align: center;
+    width: 300px;
+}
+
+#titulo-card {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#link-personagem {
+    background-color: aquamarine;
+    text-align: center;
+}
+
+#titulo-personagens {
+    color: yellow;
+}
+
 #especiais {
     color:rgb(244, 104, 190);
 }
 
 #mais {
-    color: rgb(244, 104, 190); 
+    color: rgb(244, 104, 190);
     font-size: 25px;
 }
 
@@ -162,4 +188,4 @@ footer {
 
 .numero {
     color: #c300e1ea;
-}   
+}
