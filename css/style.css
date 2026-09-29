@@ -83,10 +83,12 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
+    margin-bottom: 30px;
 }
 
 .card {
-    background-color: #dc8ad1;
+    border-radius: 8px;
+    background-color: rgb(244, 104, 190);
     text-align: center;
     width: 300px;
 }
@@ -97,12 +99,12 @@ h2 {
 }
 
 #link-personagem {
-    background-color: aquamarine;
+    background-color:rgb(244, 104, 190);
     text-align: center;
 }
 
 #titulo-personagens {
-    color: yellow;
+    color: rgb(115, 29, 136);
 }
 
 #especiais {
