@@ -12,6 +12,7 @@ header {
     background-color: rgb(244, 104, 190);
 }
 
+
 #menu{
     color: rgb(244, 104, 190);
     display: flex;
@@ -83,7 +84,7 @@ h2 {
     display: flex;
     justify-content: center;
     gap: 50px;
-    margin-bottom: 30px;
+    margin: 30px;
 }
 
 .card {
@@ -99,12 +100,14 @@ h2 {
 }
 
 #link-personagem {
+    line-height: 2;
     background-color:rgb(244, 104, 190);
     text-align: center;
 }
 
 #titulo-personagens {
-    color: rgb(115, 29, 136);
+    line-height: 2;
+    color: #700a5a;
 }
 
 #especiais {
@@ -126,7 +129,7 @@ h2 {
     text-align: center;
     justify-content: center;
     gap: 20px;
-    margin-bottom: 50px;
+    margin-top: 50px;
 }
 
 #poderes {

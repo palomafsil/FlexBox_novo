@@ -5,7 +5,7 @@
 }
 
 #aprenda {
-    color: #ff5cce;
+    color: #000000;
 }
 
 header {
@@ -17,9 +17,9 @@ header {
 }
 
 a {
-        text-decoration: none;
-        color:black
-    }
+    text-decoration: none;
+    color:black
+}
 
 #header-itens {
     display: flex;
@@ -102,4 +102,3 @@ footer {
     background-color: #fe6ad2;
     padding: 15px;
 }
-
